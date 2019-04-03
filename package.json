@@ -1,0 +1,45 @@
+{
+  "name": "react-app-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for react app",
+  "main": "app.js",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shunchaowang/react-app-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Babel",
+    "Webpack",
+    "Materail-ui Design"
+  ],
+  "author": "Shunchao Wang",
+  "license": "ISC"
+}
